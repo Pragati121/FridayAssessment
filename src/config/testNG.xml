@@ -13,4 +13,14 @@
             <class name="test.VerifyComputerPage"/>
         </classes>
     </test>
+    <test name="Verify user book page">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.VerifyBookPage"/>
+        </classes>
+    </test>
+
+
+
+
 </suite>
