@@ -5,6 +5,7 @@ public class PageFactory {
     WebDriver driver;
     private HomePage Home;
     private ComputerPage Computer;
+    private BookPage Book;
 
     public PageFactory(WebDriver driver) {
         this.driver = driver;
@@ -22,5 +23,11 @@ public class PageFactory {
             Computer = new ComputerPage(driver);
         }
         return Computer;
+    }
+    public  BookPage getBook() {
+        if (Book == null) {
+            Book = new BookPage(driver);
+        }
+        return Book;
     }
 }
