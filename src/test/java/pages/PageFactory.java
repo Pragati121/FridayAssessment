@@ -6,6 +6,7 @@ public class PageFactory {
     private HomePage Home;
     private ComputerPage Computer;
     private BookPage Book;
+    private ElectronicsPage Jewell;
 
     public PageFactory(WebDriver driver) {
         this.driver = driver;
@@ -29,5 +30,13 @@ public class PageFactory {
             Book = new BookPage(driver);
         }
         return Book;
+    }
+    public ElectronicsPage getJewelleryUser()
+    {
+        if (Jewell == null) {
+            Jewell = new ElectronicsPage(driver);
+        }
+        return Jewell;
+
     }
 }
