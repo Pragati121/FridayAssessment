@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ElectronicsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyJewelleryPage.java" afterDir="false" />
+    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="fourth Branch(test case3)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ApparelPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyApparelPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/VerifyBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/VerifyBookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/VerifyJewelleryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/VerifyElectronicPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TestCase2" />
+        <entry key="$PROJECT_DIR$" value="TestCase3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,28 +41,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pragati Sharma/MondayAssessment&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Pragati Sharma/MondayAssessment",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pragati Sharma\MondayAssessment" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyJewelleryPage.Jeweellery">
-    <configuration name="C:/Users/Pragati Sharma/MondayAssessment/src/config/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.VerifyApparelPage.Apparel">
+    <configuration name="VerifyApparelPage.Apparel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MondayAssessment" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/config/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VerifyApparelPage" />
+      <option name="METHOD_NAME" value="Apparel" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyJewelleryPage.BookPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyElectronicPage.BookPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MondayAssessment" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.VerifyJewelleryPage" />
+      <option name="MAIN_CLASS_NAME" value="test.VerifyElectronicPage" />
       <option name="METHOD_NAME" value="BookPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -122,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyJewelleryPage.Jeweellery" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyElectronicPage.Jeweellery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MondayAssessment" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +139,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.VerifyJewelleryPage" />
+      <option name="MAIN_CLASS_NAME" value="test.VerifyElectronicPage" />
       <option name="METHOD_NAME" value="Jeweellery" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -142,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyJewelleryPage.Jeweellery" />
-        <item itemvalue="TestNG.VerifyJewelleryPage.BookPage" />
+        <item itemvalue="TestNG.VerifyApparelPage.Apparel" />
+        <item itemvalue="TestNG.VerifyElectronicPage.Jeweellery" />
+        <item itemvalue="TestNG.VerifyElectronicPage.BookPage" />
         <item itemvalue="TestNG.VerifyBookPage.BookPage" />
         <item itemvalue="TestNG.VerifyBookPage.checkoutFromCart" />
-        <item itemvalue="TestNG.C:/Users/Pragati Sharma/MondayAssessment/src/config/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663507595116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second Branch(test case3)">
+      <created>1663563395471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663563395471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +203,7 @@
     <MESSAGE value="second Branch(sachin's test case1)" />
     <MESSAGE value="second Branch(sachin's test case2)" />
     <MESSAGE value="second Branch(test case2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="second Branch(test case2)" />
+    <MESSAGE value="second Branch(test case3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="second Branch(test case3)" />
   </component>
 </project>

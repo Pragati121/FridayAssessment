@@ -20,7 +20,19 @@
         </classes>
     </test>
 
+<test name="Verify user electronic page">
+<parameter name="browserName" value="chrome"></parameter>
+<classes>
+    <class name="test.VerifyElectronicPage"/>
+</classes>
+</test>
 
+<test name="Verify user electronic page">
+<parameter name="browserName" value="chrome"></parameter>
+<classes>
+    <class name="test.VerifyApparelPage"/>
+</classes>
+</test>
 
 
 </suite>

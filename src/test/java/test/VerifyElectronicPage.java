@@ -1,8 +1,8 @@
 package test;
 import org.testng.annotations.Test;
-import pages.PageFactory;
+
 import java.io.IOException;
-public class VerifyJewelleryPage extends BaseTest {
+public class VerifyElectronicPage extends BaseTest {
     @Test(priority = 0)
     public void Honestest() throws IOException, InterruptedException {
         pageFactory.getHomeVerify().HomeUser();
