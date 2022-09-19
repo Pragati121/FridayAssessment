@@ -8,6 +8,7 @@ public class PageFactory {
     private BookPage Book;
     private ElectronicsPage Jewell;
     private ApparelPage Apparel;
+    private GiftCard Gift;
 
     public PageFactory(WebDriver driver) {
         this.driver = driver;
@@ -48,4 +49,13 @@ public class PageFactory {
         }
         return Apparel;
     }
-}
+    public GiftCard getGift()
+
+    {
+        if(Gift==null)
+        {
+            Gift=new GiftCard(driver);
+        }
+        return Gift;
+    }
+    }

@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="fourth Branch(test case3)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ApparelPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyApparelPage.java" afterDir="false" />
+    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GiftCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyGiftCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/VerifyJewelleryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/VerifyElectronicPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="C:\Users\Pragati Sharma\MondayAssessment" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyApparelPage.Apparel">
+  <component name="RunManager" selected="TestNG.VerifyGiftCard.GiftCard">
     <configuration name="VerifyApparelPage.Apparel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MondayAssessment" />
       <extension name="coverage">
@@ -87,24 +86,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.VerifyBookPage" />
       <option name="METHOD_NAME" value="BookPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyBookPage.checkoutFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MondayAssessment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.VerifyBookPage" />
-      <option name="METHOD_NAME" value="checkoutFromCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,13 +129,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyGiftCard.GiftCard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MondayAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VerifyGiftCard" />
+      <option name="METHOD_NAME" value="GiftCard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifyGiftCard.GiftCard" />
         <item itemvalue="TestNG.VerifyApparelPage.Apparel" />
         <item itemvalue="TestNG.VerifyElectronicPage.Jeweellery" />
         <item itemvalue="TestNG.VerifyElectronicPage.BookPage" />
         <item itemvalue="TestNG.VerifyBookPage.BookPage" />
-        <item itemvalue="TestNG.VerifyBookPage.checkoutFromCart" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663563395471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fifth Branch(test case4)">
+      <created>1663565221780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663565221781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +210,7 @@
     <MESSAGE value="second Branch(sachin's test case2)" />
     <MESSAGE value="second Branch(test case2)" />
     <MESSAGE value="second Branch(test case3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="second Branch(test case3)" />
+    <MESSAGE value="fifth Branch(test case4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth Branch(test case4)" />
   </component>
 </project>

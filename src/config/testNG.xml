@@ -35,4 +35,11 @@
 </test>
 
 
+    <test name="Verify user gift card page">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.VerifyGiftCard"/>
+        </classes>
+    </test>
+
 </suite>
