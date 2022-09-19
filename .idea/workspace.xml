@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GiftCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyGiftCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad3b596d-addd-4c7d-8073-3df711797e77" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663565221781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sixth Branch(test case5)">
+      <created>1663566869110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663566869110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +212,7 @@
     <MESSAGE value="second Branch(test case2)" />
     <MESSAGE value="second Branch(test case3)" />
     <MESSAGE value="fifth Branch(test case4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth Branch(test case4)" />
+    <MESSAGE value="Sixth Branch(test case5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth Branch(test case5)" />
   </component>
 </project>
